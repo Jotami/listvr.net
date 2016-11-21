@@ -1,0 +1,109 @@
+// VARIABLES
+
+$font: 'Source Sans Pro', sans-serif;
+$accent: #111111;
+$main-colour: #0F16F8;
+$bg-colour: #EDEDED;
+$black : 900;
+$bold : 700;
+$semibold : 600;
+$regular : 400;
+
+
+// TEXT STYLES
+
+.hero {
+	margin-top: 40px;
+}
+
+.viewall {
+
+}
+
+h3 a {
+	font-size: 2.3rem;
+	font-family: $font;
+	font-weight: $semibold;
+	color: $main-colour;
+	text-decoration: none;
+	line-height: 1.3;
+	padding-top: 0px;
+}
+
+.head {
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+.logo {
+	text-transform: uppercase;
+	font-size: 4.5rem;
+	font-family: $font;
+	font-weight: $black;
+	color: $main-colour;
+}
+
+.category-title {
+	color: $main-colour;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-size: 3.1rem;
+	font-family: $font;
+	font-weight: $bold;
+	text-transform: uppercase;
+}
+
+.underlogo {
+	text-transform: uppercase;
+	font-family: $font;
+	font-weight: $regular;
+	font-size: 2.0rem;
+	color: $main-colour;
+	letter-spacing: 2.29px;
+	margin:0px;
+}
+
+.articleMeta {
+	color: $main-colour;
+}
+
+// NAVIGATION
+
+.navigation {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li {
+	display: inline;
+}
+
+.navigation li a {
+	font-family: $font;
+	font-weight: $semibold;
+	font-size: 1.3rem;
+	text-transform: lowercase;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+
+// MISC
+
+body {
+	background-color: $bg-colour;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-width: 0;
+  border-top: 1px solid $main-colour; 
+}
+
+
+// GRID
+.section {
+	margin-top: 60px;
+}
